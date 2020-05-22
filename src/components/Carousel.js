@@ -2,11 +2,12 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import devgrub from '../assets/images/devgrub.png';
-import youtube from '../assets/images/n.jpg';
-import evverest from '../assets/images/evverest.png';
+import evnt from '../assets/images/evnt.jpg';
+import book from '../assets/images/book.png';
+import fitplay from '../assets/images/fitplay.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+
 
 class Carousel extends React.Component {
 
@@ -16,26 +17,26 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
-                    imgSrc: devgrub,
-                    link: 'https://devgrub.com',
+                    title: 'Evventi',
+                    subTitle: 'the event planner App',
+                    imgSrc: evnt,
+                    link: 'https://stormy-coast-97431.herokuapp.com/public',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
-                    subTitle: 'YouTube channel',
-                    imgSrc: youtube,
-                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+                    title: 'Book Logger',
+                    subTitle: 'Books library App',
+                    imgSrc: book,
+                    link: 'https://booklogger123.herokuapp.com/user/register#',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    imgSrc: evverest,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    title: 'FitPlay',
+                    subTitle: 'A Fitness App',
+                    imgSrc: fitplay,
+                    link: 'https://stevenleonardo.github.io/project1/',
                     selected: false
                 },
             ]
