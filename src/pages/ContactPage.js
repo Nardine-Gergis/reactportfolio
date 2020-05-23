@@ -2,7 +2,7 @@ import React from 'react';
 
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
+import '../components/style.css';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 import Axios from 'axios';
@@ -71,8 +71,13 @@ class ContactPage extends React.Component {
         return(
             <div>
                 <Hero title={this.props.title} />
-
+                
                 <Content>
+                <a href="https://www.facebook.com/nardine.michael.3/" className="fa fa-facebook"></a>
+                 <a href="https://www.linkedin.com/in/nardine-george-1319b9151" className="fa fa-linkedin"></a>
+                 <a href="https://github.com/Nardine-Gergis" className="fa fa-github"></a>
+                 <p className="fa fa-envelope-square">nardinegergis@gmail.com</p>
+                 
                     <Form onSubmit={this.handleSubmit}>
                         <Form.Group>
                             <Form.Label htmlFor="full-name">Full Name</Form.Label>

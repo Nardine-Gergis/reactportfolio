@@ -10,11 +10,12 @@ import Row from 'react-bootstrap/Row';
 
 
 class Carousel extends React.Component {
-
+    
     constructor(props) {
         super(props);
         this.state = {
             items: [
+                
                 {
                     id: 0,
                     title: 'Evventi',
